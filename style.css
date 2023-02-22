@@ -1,15 +1,203 @@
-.wrapper {
+.wrapper{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row wrap; 
+  font-family: sans-serif;
+  margin: 0 120px;
 }
 
-.wrapper > * {
-  padding: 150px;
-  margin: 10px;
+.wrapper>*{
+  padding: 10px;
   flex: 1 100%;
   border-radius: 10px;
 }
 
-#header > * {
-  background-color: gray;
-}/*# sourceMappingURL=style.css.map */
+/*NAVIGATION BAR */ 
+
+.navBar{
+  display: flex; 
+  background-color: white;
+  width: auto; 
+  height: 140px; 
+  align-items: center; 
+  justify-content: space-between; 
+  border-radius: 0%;
+  border-bottom: 1px solid rgb(206, 206, 206); 
+  padding-bottom: 20px;
+
+}
+
+#searchBar{
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 90px;
+  border: 1px solid rgb(206, 206, 206);
+  background-color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+#searchBar p{
+  padding: 0 40px;
+}
+
+#ajoutVoyageurs{
+  color: gray;
+  font-weight: normal;
+}
+
+#searchBar img{
+  margin: 0 10px;
+}
+
+#uneSemaine{
+  border-left: 1px solid rgb(206, 206, 206);
+  border-right: 1px solid rgb(206, 206, 206);
+}
+
+#notif{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 50px;
+}
+
+#navBarButtons{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; 
+}
+
+#navBarButtons > p{
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 70px;
+}
+
+#terre{
+  margin: 0 50px;
+}
+
+/*  END NAV BAR  */ 
+
+
+/*  ACCOM TYPE  */ 
+
+.accomType{
+  display: flex; 
+  align-items: center;
+  padding: 50px 0 20px 0; 
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold; 
+  color: gray;
+}
+
+.accomType img{
+  width: 50px;
+  height: 60px;
+}
+
+#chevron{
+  width: 30px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+.accomType > div{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+#filtres{
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+
+#filtresRectangle{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-items: space-between;
+  border-radius: 22px;
+  border: 1px solid rgb(206, 206, 206); 
+ 
+}
+
+#filtresRectangle img{
+  width: 40px;
+  height: 40px;
+  padding: 5px 10px 5px 20px;
+}
+
+#filtresRectangle p{
+  padding: 5px 20px 5px 10px;
+}
+
+
+/*  END ACCOM TYPE  */ 
+
+
+/*  ADS   */ 
+
+.ad{
+  font-size: 30px;
+  margin: 50px 50px 50px 0; 
+}
+
+.ad > img{
+  width: 650px;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 20px;
+
+}
+
+.ad > * {
+  margin: 0;
+}
+
+
+#villeEtoiles{
+  display: flex;
+  align-items: ;
+  justify-content: space-between;
+}
+
+/* etoiles 3,4 */ 
+.ad div div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#particulier{
+  margin-top: 10px;
+}
+
+#dates{
+  margin-bottom: 10px;
+}
+
+span{
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+
+
+.ad div img{
+  width:30px;
+  height: 30px;
+}
+
+
+
