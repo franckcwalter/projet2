@@ -10,354 +10,301 @@
     <head>
 
         <title>airbnb</title>
+        <link type="text/css" rel="stylesheet" href="bootstrap.min.css"/> 
         <link type="text/css" rel="stylesheet" href="style.css"/>
-
 
     </head>
 
     <body>
-
-        <div class="wrapper">
-        
         <!-- NAV BAR -->
 
-        <div class="navBar"> 
+        <section class="border p-4 mb-4 d-flex  flex-column">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+              <!-- Container wrapper -->
+              <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#"><img src="https://static.latribune.fr/399101/airbnb.jpg" width="160px" id="logo">
+                </a>
+          
+                <!-- Toggle button -->
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fas fa-bars"></i>
+                </button>
+          
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <!-- Left links -->
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <button class="btn btn-outline-secondary" type="button">N'importe où</button>
+                              <button class="btn btn-outline-secondary" type="button">Une semaine</button>
+                            </div>
 
-                        <!-- logo aibnb-->
-            <img src="https://static.latribune.fr/399101/airbnb.jpg" height="110px" id="logo">
+                            <form class="form-inline " id="search">
+                                <input class="form-control mr-sm-2 align-self-center" type="search" placeholder="Rechercher une destination" aria-label="searchBar">
+                                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><img src="https://cdn-icons-png.flaticon.com/128/3031/3031293.png" width="15px"></button>
+                                </form>
+                                                    
+                            
+                        </div>
+                          
 
-
-            <div id="searchBar">
-                <p id="nimporte">N'importe où</p>
-                <p id="uneSemaine">Une semaine</p>
-                <p id="ajoutVoyageurs">Ajouter des voyageurs</p>
-
-                <div id="loupe">  <!-- image de loupe-->      
-                    <img src="https://cdn-icons-png.flaticon.com/512/3542/3542003.png" width="50" height="50"> 
-                </div>
-            </div>
-
-            <div id="navBarButtons">
             
-                <p> Mettre mon logement sur Airbnb </p>
 
-                <!-- image globe --> 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Globo_logo_1966.svg/800px-Globo_logo_1966.svg.png" width="50" height="50" id="terre">
+
+                    </li>
+
+                    
+                    <!-- Navbar dropdown -->
+
+
+                  </ul>
+                  <!-- Left links -->
+
+
+
+
+
+            <p  aria-current="page" > Ajouter mon logement sur Airbnb</p>
             
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" width="15px"></button>
 
-            
-                <div id="notif">   <!-- faire un rectangle avec roundedCorner--> 
-            
-                <!-- trois barres horizontales -->
-                <img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" width="30" height="30">    
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><img src="https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/featured%20pages/teams%20panel/group-1120@2x.png" width="15px" height="15px"></button>
 
-                <!-- profil -->
-                <img src="https://kenticoprod.azureedge.net/kenticoblob/crestron/media/crestron/generalsiteimages/featured%20pages/teams%20panel/group-1120@2x.png" width="60" height="60"> 
-                
-
-                
-
-                </div>
-
-            </div>
+             
 
         </div>
+        </nav>
+          
 
         <!-- END NAV BAR -->
 
 
         <!-- ACCOM TYPE -->
 
-        <div class="accomType">
-        
-            <div> 
-                <img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg"> 
-                <p>Bord de mer</p>
-            </div>
 
-            <div> 
-                <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"> 
-                <p>Avec vue</p>
-            </div>
+        <div class="container text-center">
+            <div class="row">
 
-            <div> 
-                <img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg"> 
-                <p>Campagne</p>
-            </div>
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg"> 
-                <p>Sous les tropiques</p>
-            </div>
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"> 
-                <p>Cabanes</p>
-            </div>
-
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg"> 
-                <p>Au pied des pistes</p>
-            </div>
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg"> 
-                <p>Luxe</p>
-            </div>
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"> 
-                <p>Piscines</p>
-            </div>
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg"> 
-                <p>Dômes</p>
-            </div>
-
-            <div> 
-                <img src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg"> 
-                <p>Grandes demeures</p>
-            </div>
-
-                    <!-- chevron -->
-
-            <div id="chevron"> <img src="https://cdn-icons-png.flaticon.com/512/2767/2767893.png" > </div>
-
-            <div id="filtres"> 
                 
-        
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" width="30" height="30"> 
+                <p>Bord de mer</p>
+              </div>
 
-               <!-- flitres -->
-                <div id="filtresRectangle">
-                    <img src="https://cdn-icons-png.flaticon.com/512/8414/8414931.png"> 
-                    <p>Filtres</p>
-                </div>
-               
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" width="30" height="30"> 
+                <p>Avec vue</p>
+              </div>
 
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" width="30" height="30"> 
+                <p>Campagne</p>
+              </div>
 
-             </div>
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg" width="30" height="30"> 
+                <p>Sous les tropiques</p>
+              </div>
 
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" width="30" height="30"> 
+                <p>Cabanes</p>
+              </div>
 
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" width="30" height="30"> 
+                <p>Au pied des pistes</p>
+              </div>
 
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" width="30" height="30"> 
+                <p>Luxe</p>
+              </div>
 
-                   
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" width="30" height="30"> 
+                <p>Piscines</p>
+              </div>
 
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" width="30" height="30"> 
+                <p>Dômes</p>
+              </div>
 
-          
-        
-        </div>
+              <div class="col">
+                <img src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg" width="30" height="30"> 
+                <p>Grandes demeures</p>
+              </div>
+
+            </div>
+          </div>
 
 
         <!-- END ACCOM TYPE -->
         
+
+
+
         <!-- ADS -->
 
-        <span id="ads"> 
-
-        
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
-        <div class="ad"> 
-
-            <img src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200"> 
-
-            <div id="villeEtoiles"> 
-
-                <p id="city"><strong>Marseille, France</strong></p>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5582/5582937.png"> 
-                    <p>3,4</p>
-                </div>
-
-            </div>
-
-            <p id="particulier">Particulier</p>
-            <p id="dates">15-29 août</p>
-            <p><strong>125€</strong> par personne</p>
-
-        </div>
-
         
 
+        <div class="container text-left" >
 
-        
-    </span>
+            <div class="row" id="articleRow">
 
-         
+              <div class="col">
+                <div class="card">
+                  <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><strong> Marseille, France</strong></p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Vues plage et mer</li>
+                    <li class="list-group-item">1-6 mars</li>
+                    <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="col">
+                  <div class="card">
+                    <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><strong> Marseille, France</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Vues plage et mer</li>
+                      <li class="list-group-item">1-6 mars</li>
+                      <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="col">
+                  <div class="card">
+                    <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><strong> Marseille, France</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Vues plage et mer</li>
+                      <li class="list-group-item">1-6 mars</li>
+                      <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="col">
+                  <div class="card">
+                    <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><strong> Marseille, France</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Vues plage et mer</li>
+                      <li class="list-group-item">1-6 mars</li>
+                      <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" id="articleRow">
+
+              <div class="col">
+                <div class="card">
+                  <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><strong> Marseille, France</strong></p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Vues plage et mer</li>
+                    <li class="list-group-item">1-6 mars</li>
+                    <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="col">
+                  <div class="card">
+                    <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><strong> Marseille, France</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Vues plage et mer</li>
+                      <li class="list-group-item">1-6 mars</li>
+                      <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="col">
+                  <div class="card">
+                    <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><strong> Marseille, France</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Vues plage et mer</li>
+                      <li class="list-group-item">1-6 mars</li>
+                      <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="col">
+                  <div class="card">
+                    <img class="card-img-top" src="https://a0.muscache.com/im/pictures/pro_photo_tool/Hosting-37445083-unapproved/original/e25c6374-8a1e-4e87-98a2-e9633603307c.JPEG?im_w=1200" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><strong> Marseille, France</strong></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Vues plage et mer</li>
+                      <li class="list-group-item">1-6 mars</li>
+                      <li class="list-group-item"><strong>240€ par nuit</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          
         <!-- END ADS-->
 
 
         <!-- FOOTER  -->
-
-        <div id="footer"> 
-
-            <p>© 2023 Airbnb, Inc.·ConfidentialitéConditions généralesPlan du siteFonctionnement du siteInfos sur l'entreprise·Destinations</p>
-            
-                <!-- image globe --> 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Globo_logo_1966.svg/800px-Globo_logo_1966.svg.png" width="50" height="50">
-
-            <p>Français (FR)</p>
-            <p>€ EUR</p>
-            <p>Assistance et ressources</p>
-        
-        
         <!-- END FOOTER  -->
             
-    
-
-        </div>
-
-        </div>
-
-
     </body>
 
 </html>
