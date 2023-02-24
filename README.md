@@ -1,2 +1,2 @@
 
- j'ai utilisé flexbox dès le départ 
+ j'ai utilisé flexbox dès le début du projet
